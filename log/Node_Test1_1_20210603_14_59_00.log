@@ -1,0 +1,23 @@
+2021/06/03 14:59:00 module.go:113: [debug  ] Add module  completed
+2021/06/03 14:59:00 module.go:113: [debug  ] Add module  completed
+2021/06/03 14:59:00 module.go:113: [debug  ] Add module Module1 completed
+2021/06/03 14:59:00 module.go:127: [debug  ] Release module .
+2021/06/03 14:59:00 module.go:127: [debug  ] Release module .
+2021/06/03 14:59:00 module.go:113: [debug  ] Add module  completed
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService4.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService7.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService5.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service HttpService.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService3.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestHttpService.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService6.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service MyTcpService.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService1.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestService2.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service TestTcpService.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service DiscoveryMaster.
+2021/06/03 14:59:00 service.go:112: [debug  ] Start running Service DiscoveryClient.
+2021/06/03 14:59:10 module.go:127: [debug  ] Release module .
+2021/06/03 14:59:10 profiler.go:170: [release] Profiler report tag TestService1:
+process count 12,take time 1005 Milliseconds,average 83 Milliseconds/per.
+slow process:[timer]originserver/simple_service.(*TestService1).Loop-fm is take 1005 Milliseconds
